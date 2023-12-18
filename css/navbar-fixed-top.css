@@ -1,0 +1,149 @@
+body {  
+  /* min-height: 2000px; */
+  padding-top: 70px;
+}
+
+
+
+.menu_footer {
+    background: none repeat scroll 0% 0% #666;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.menu_footer .after {
+    width: 75px;
+    height: 36px;
+    background: url(../img/public/down_bg.png') no-repeat scroll 0% 0% #666;
+    position: relative;
+    margin: 0px auto;
+}
+
+.wrap {
+    width: 978px;
+    margin: 0px auto;
+}
+
+.main_bg {
+    background: url('/images/exchange/main-bg.gif') repeat scroll 0% 0% transparent;
+    width: 100%;
+    height: 310px;
+    padding: 0px 0px 0px;
+}
+
+.tile {
+	 height: 120px;
+	 line-height : 100px;
+	 text-align: center;
+	 font-size : 50px;
+	 font-weight: 500;
+	 color: #FFF;
+}
+.caption {
+	text-align: center;
+    height: 200px;
+    overflow-y: hidden;
+    color: #555;
+}
+
+.gatewaytile {
+	 height: 80px;
+	 text-align: center;
+	 color: #FFF;
+}
+.gatewaycaption {
+	text-align: center;
+    height: 40px;
+    overflow-y: hidden;
+    color: #555;
+}
+
+.color-brand-primary {
+    background-color: #428BCA;
+}
+.color-brand-success {
+    background-color: #5CB85C;
+}
+.color-brand-info {
+    background-color: #5BC0DE;
+}
+.color-brand-warning {
+    background-color: #F0AD4E;
+}
+.color-brand-danger {
+    background-color: #D9534F;
+}
+.color-brand-grey {
+    background-color: #eceff1;
+}
+.color-brand-yellow {
+    background-color: #f1d760;
+}
+
+.right {	
+	text-align: right
+}
+
+table.dataTable {
+	margin: 0 auto;
+	clear: both;
+	width: 100%
+}
+
+table.dataTable thead th {
+	padding: 3px 5px 2px 5px;
+	color: #fff;
+	background-color: #545454;
+}
+
+table.dataTable tfoot th {
+	padding: 1px 5px 1px 5px
+}
+
+table.dataTable thead th,table.dataTable tfoot th {
+	font-weight: normal
+}
+
+table.dataTable thead th.sorting,table.dataTable thead th.sorting_desc,table.dataTable thead th.sorting_asc
+	{
+	cursor: pointer;
+	*cursor: hand
+}
+
+table.dataTable thead th.ralign.sorting,table.dataTable thead th.ralign.sorting_asc,table.dataTable thead th.ralign.sorting_desc
+	{
+	padding-right: 20px
+}
+
+table.dataTable td {
+	padding: 4px 5px;
+	vertical-align: middle
+}
+
+table.dataTable td,table.dataTable tfoot th {
+	font-size: 12px
+}
+
+table.dataTable td.center,table.dataTable td.dataTables_empty {
+	text-align: center
+}
+
+table.dataTable thead th,table.dataTable td {
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff
+}
+
+table.dataTable tfoot th {
+	border-top: 2px solid #545454
+}
+
+table.dataTable thead th:first-child {
+	border-top-left-radius: 3px
+}
+
+table.dataTable thead th:last-child {
+	border-top-right-radius: 3px
+}

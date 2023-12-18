@@ -1,0 +1,19 @@
+[currencies]
+XRPS rN1bCPAxHDvyJzvkUso1L2wvXufgE4gXPL
+
+[domain]
+xrps.io
+
+[accounts]
+rN1bCPAxHDvyJzvkUso1L2wvXufgE4gXPL
+
+[hotwallets]
+rLH7wL4CmZDhNdGdWRk8ieV9pn2ufBXrPs
+rGDskAt88fwmpnifrNZjhx4daGYL1smint
+rU11xSt6TSSpKJbELzRJkr3duDd4PiDtL1
+
+[federation_url]
+https://xrps.io/api
+
+[fees]
+Transfer: 0
