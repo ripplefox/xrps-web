@@ -133,10 +133,11 @@
 			<div class="col-md-offset-2 col-md-8 fadeInRight my-animation lh2 text-left">
 				<p>Ripple does not offer smart contract functionality, and it does not support Script and OP. The XRC-20 protocol involves inscribing the metadata and transaction data of Inscription onto the Ripple network. Consistency proof of the ledger is ensured through the use of standard indexers.</p>
 				<p>XRC-20 processes transactions in JSON format and is comprised of 5 fundamental transaction types: <span class="lightblue">mint, transfer, list, delist and buy</span>.</p>
+				<p>A total of 10,000,000,000 XRPS will be minted, corresponding to 10,000,000 NFT. Distribution is completely open and fair. The issuance address is <span class="lightblue">rN1bCPAxHDvyJzvkUso1L2wvXufgE4gXPL</span>.</p>
 				<hr class="section-heading-spacer">
 
 				<h2>Mint</h2>
-				<p>To mint a NFT, you are required to send 0.1 XRP with the corresponding JSON format memo to Ripple. The receiving address must be <span class="lightblue">r4eLeum9n4UQtnANDbgpaGLn9uSgcYXRps</span>. There are only 10 million NFTs available in total. Each account can mint up to 1,000 NFTs.</p>
+				<p>To <span class="lightblue">mint</span> a NFT, you are required to send 0.1 XRP with the corresponding JSON format memo to Ripple. The receiving address must be <span class="lightblue">r4eLeum9n4UQtnANDbgpaGLn9uSgcYXRps</span>. There are only 10 million NFTs available in total. Each account can mint up to 1,000 NFTs. <strong>All minting XRP will be put into the initial trading pool.</strong></p>
 				<p><pre>
 	const json = {"tick":"xrps","op":"mint","txt":"I love you."};
 	payment.memos = [{data: JSON.stringify(json), type: 'xrc20', format: 'text'}];</pre></p>
@@ -148,7 +149,8 @@
 				<hr class="section-heading-spacer">
 
 				<h2>List</h2>
-				<p>TBD</p>
+				<p>Through the <span class="lightblue">list</span> operation, you can put NFTs on the open market for trading. You need to specify the price of each NFT. Currently only pricing in XRP is supported.</p>
+				<p><pre>	const json = {"tick":"xrps","op":"list","id":"1","price":"1000/XRP"};</pre></p>
 				<hr class="section-heading-spacer">
 
 				<h2>Delist</h2>
