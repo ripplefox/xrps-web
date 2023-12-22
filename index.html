@@ -134,11 +134,11 @@
 			<div class="col-md-offset-2 col-md-8 fadeInRight my-animation lh2 text-left">
 				<p>Ripple does not offer smart contract functionality, and it does not support Script and OP. The XRC-20 protocol involves inscribing the metadata and transaction data of Inscription onto the Ripple network. Consistency proof of the ledger is ensured through the use of standard indexers.</p>
 				<p>XRC-20 processes transactions in JSON format and is comprised of 5 fundamental transaction types: <span class="lightblue">mint, transfer, list, delist and buy</span>.</p>
-				<p>A total of 10,000,000,000 XRPS will be minted, corresponding to 10,000,000 NFT. Distribution is completely open and fair. The issuance address is <span class="lightblue">rN1bCPAxHDvyJzvkUso1L2wvXufgE4gXPL</span>.</p>
+				<p>A total of 10,000,000,000 XRPS will be minted, corresponding to 10,000,000 immutable inscriptions. Distribution is completely open and fair. The issuance address is <span class="lightblue">rN1bCPAxHDvyJzvkUso1L2wvXufgE4gXPL</span>.</p>
 				<hr class="section-heading-spacer">
 
 				<h2>Mint</h2>
-				<p>To <span class="lightblue">mint</span> a NFT, you are required to send 0.1 XRP with the corresponding JSON format memo to Ripple. The receiving address must be <span class="lightblue">r4eLeum9n4UQtnANDbgpaGLn9uSgcYXRps</span>. There are only 10 million NFTs available in total. Each account can mint up to 1,000 NFTs. <strong>All minting XRP will be put into the initial trading pool.</strong></p>
+				<p>To <span class="lightblue">mint</span> a immutable inscription, you are required to send 0.1 XRP with the corresponding JSON format memo to Ripple. The receiving address must be <span class="lightblue">r4eLeum9n4UQtnANDbgpaGLn9uSgcYXRps</span>. There are only 10 million immutable inscriptions available in total. Each account can mint up to 1,000 immutable inscriptions. <strong>All minting XRP will be put into the initial trading pool.</strong></p>
 				<p><pre>
 	const json = {"tick":"xrps","op":"mint","txt":"I love you."};
 	payment.memos = [{data: JSON.stringify(json), type: 'xrc20', format: 'text'}];</pre></p>
@@ -150,7 +150,7 @@
 				<hr class="section-heading-spacer">
 
 				<h2>List</h2>
-				<p>Through the <span class="lightblue">list</span> operation, you can put NFTs on the open market for trading. You need to specify the price of each NFT. Currently only pricing in XRP is supported.</p>
+				<p>Through the <span class="lightblue">list</span> operation, you can put immutable inscriptions on the open market for trading. You need to specify the price when list. Currently only pricing in XRP is supported.</p>
 				<p><pre>	const json = {"tick":"xrps","op":"list","id":"1","price":"1000/XRP"};</pre></p>
 				<hr class="section-heading-spacer">
 
@@ -179,7 +179,7 @@
 			<div class="master-separator"></div>
 		</div>
 		<div class="col-md-offset-2 col-md-8 fadeInRight my-animation lh2">
-			<p>Using the XRC-20 protocol, we have created an NFT market on Ripple. Using inscription, users are free to define prices and place trades.</p>
+			<p>Using the XRC-20 protocol, we have created an inscription market on Ripple. Using XRPS, users are free to define prices and place trades.</p>
 		</div>
 	</div>
 </section>
@@ -207,7 +207,7 @@
 	                <i class="icon fa fa-rocket"></i>
 	                <div class="date">20 Dec</div>
 	                <div class="content">
-	                    <p>The first NFT "XRPS" was minted.</p>
+	                    <p>The first immutable inscription "XRPS" was minted.</p>
 	                </div>
 	            </div>
 	            <div class="container left">
@@ -221,21 +221,21 @@
 	                <i class="icon fa fa-running"></i>
 	                <div class="date">26 Dec</div>
 	                <div class="content">
-	                    <p>User can transfer NFTs to each other.</p>
+	                    <p>User can transfer immutable inscriptions to each other.</p>
 	                </div>
 	            </div>
 	            <div class="container left">
 	                <i class="icon fa fa-store"></i>
 	                <div class="date">1 Jan</div>
 	                <div class="content">
-	                    <p>DEX ready. User can list and buy NFTs.</p>
+	                    <p>DEX ready. User can list and buy inscriptions.</p>
 	                </div>
 	            </div>
 	            <div class="container right">
 	                <i class="icon fa fa-certificate"></i>
 	                <div class="date">TBD</div>
 	                <div class="content">
-	                    <p>After all NFTs are minted, all XRP spent on minting will be injected into the liquidity pool.</p>
+	                    <p>After all immutable inscriptions are minted, all XRP spent on minting will be injected into the liquidity pool.</p>
 	                </div>
 	            </div>
 	        </div>
