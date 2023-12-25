@@ -10,6 +10,7 @@ rN1bCPAxHDvyJzvkUso1L2wvXufgE4gXPL
 [hotwallets]
 r4eLeum9n4UQtnANDbgpaGLn9uSgcYXRps
 rGDskAt88fwmpnifrNZjhx4daGYL1smint
+rDzmkUmGEixhyXNdfJ53BNHQSGjhGfgHoM
 rU11xSt6TSSpKJbELzRJkr3duDd4PiDtL1
 rLH7wL4CmZDhNdGdWRk8ieV9pn2ufBXrPs
 

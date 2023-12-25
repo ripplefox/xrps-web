@@ -147,6 +147,7 @@
 	const json = {"tick":"xrps","op":"mint","txt":"I love you."};
 	payment.memos = [{data: JSON.stringify(json), type: 'xrc20', format: 'text'}];</pre></p>
 				<p>Ensure that type is "xrc20" when you create the memo. The data in memo contains tick, op and txt fields. You can only modify the txt field. Once submitted, the content of the txt cannot be changed. Note that the txt cannot be too long as the memos field is limited to no more than 1 KB in size (when serialized in binary format).</p>
+				<p>You can mint with the <a href="https://xrps.io/trade/">wallet</a> we provide, or use the community wallet <a href="https://snapswap.com" target="_blank">snapswap.com</a>.</p>
 				<hr class="section-heading-spacer">
 
 				<h2>Transfer</h2>
@@ -218,7 +219,7 @@
 	                <i class="icon fa fa-globe"></i>
 	                <div class="date">25 Dec</div>
 	                <div class="content">
-	                    <p>Inscription Explorer and ripple wallet will be online</p>
+	                    <p>Inscription Explorer and <a href="https://xrps.io/trade/">ripple wallet</a> will be online</p>
 	                </div>
 	            </div>
 	            <div class="container right">
@@ -295,7 +296,6 @@
 <script src="./js/ultile.js"></script>
 <script src="./js/config.js"></script>
 <script>
-	var p = 12.331;
     // Function to fetch the percentage value from an API
     async function fetchProgress() {
         try {
