@@ -1,0 +1,111 @@
+
+.search-section {
+  font-family: Arial, sans-serif;
+  margin-top: 70px;
+  padding: 0;
+}
+    
+.search-section .container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  flex: 1;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.search-icon {
+  background-image: url('../images/search.svg'); /* 添加搜索图标 */
+  background-position: center;
+  background-size: 20px; /* 图标大小 */
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  cursor: pointer; /* 鼠标指针样式为手型 */
+}
+
+.search-results {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.search-results th,
+.search-results td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.search-results th {
+  background-color: #f2f2f2;
+}
+
+.result-row:nth-child(odd) {
+  background-color: #fff;
+}
+
+.result-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.result-row:hover {
+  background-color: #e0e0e0;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-button:hover {
+  background-color: #0056b3;
+}
+
+.attribute-box {
+  padding: 20px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between; /* 水平对齐到两端 */
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.attribute {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* 自定义属性的样式 */
+.attribute span {
+    color: #007bff; /* 蓝色文本颜色 */
+}

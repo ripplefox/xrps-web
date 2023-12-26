@@ -16,8 +16,8 @@
 	<link rel="stylesheet" href="./css/owl.carousel.css">
 	<link rel="stylesheet" href="./css/spacing.min.css">
 	<link rel="stylesheet" href="./css/font.css">
-	<link rel="stylesheet" href="./css/ripplef.css?v=200429">
-	<link rel="stylesheet" href="./css/style.css?v=180123">
+	<link rel="stylesheet" href="./css/xrps.css">
+	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/roadmap.css?v=231222">
 </head>
 
@@ -45,11 +45,11 @@
 								<a href="#about">XRC20</a>
 							</li>
 							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2131">
-								<a href="/#">Explorer</a>
+								<a href="/trade">Wallet</a>
 							</li>
-							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2131">
+<!-- 							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2131">
 								<a href="/#">Market</a>
-							</li>
+							</li> -->
 						</ul>
 					</nav>
 					<div id="mobile-menu-button" class="hidden-md hidden-lg">
@@ -70,7 +70,7 @@
 									<a href="#about">XRC-20</a>
 								</li>
 								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2131">
-									<a href="/exchange">Explorer</a>
+									<a href="/trade">Wallet</a>
 								</li>
 							</ul>
 						</div>
@@ -142,7 +142,7 @@
 			        <div class="progress-bar"></div>
 			    </div>
 				<h2>Mint</h2>
-				<p>To <span class="lightblue">mint</span> an immutable inscription, you are required to send 0.1 XRP with the corresponding JSON format memo to Ripple. The receiving address must be <span class="lightblue">r4eLeum9n4UQtnANDbgpaGLn9uSgcYXRps</span>. There are only 10 million immutable inscriptions available in total. Each account can mint up to 1,000 immutable inscriptions. <strong>All minting XRP will be put into the initial trading pool.</strong></p>
+				<p>To <span class="lightblue">mint</span> an immutable inscription, you are required to send 0.1 XRP with the corresponding JSON format memo to Ripple. The receiving address must be <span class="lightblue">r4eLeum9n4UQtnANDbgpaGLn9uSgcYXRps</span>. There are only 10 million immutable inscriptions available in total. Each account can mint up to 1,001 immutable inscriptions. <strong>All minting XRP will be put into the initial trading pool.</strong></p>
 				<p><pre>
 	const json = {"tick":"xrps","op":"mint","txt":"I love you."};
 	payment.memos = [{data: JSON.stringify(json), type: 'xrc20', format: 'text'}];</pre></p>
@@ -219,7 +219,7 @@
 	                <i class="icon fa fa-globe"></i>
 	                <div class="date">25 Dec</div>
 	                <div class="content">
-	                    <p>Inscription Explorer and <a href="https://xrps.io/trade/">ripple wallet</a> will be online</p>
+	                    <p><a href="https://xrps.io/trade/">Ripple wallet</a> went online.</p>
 	                </div>
 	            </div>
 	            <div class="container right">
@@ -293,7 +293,6 @@
 <script src="./js/timeago.js"></script>
 <script src="./js/plugins.js"></script>
 <script src="./js/active.js"></script>
-<script src="./js/ultile.js"></script>
 <script src="./js/config.js"></script>
 <script>
     // Function to fetch the percentage value from an API
