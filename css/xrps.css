@@ -245,14 +245,9 @@ section#stzl .item:hover img {
 .testimonial-content{
 	letter-spacing: 1.2px;
 }
-#devteam{
-	background: #f7f7f7;
-}
-#sttx{
-	background-image:url(../images/tixi-bg.png); 
-}
+
 #contact{
-	background-image:url(../images/contact_bg.webp); 	
+	background-image:url(../images/earth.jpeg); 	
 }
 .news_box{
 	border: 1px solid #ddd;
