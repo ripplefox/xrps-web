@@ -189,13 +189,6 @@ section#stzl .item:hover img {
     background-image: linear-gradient(to bottom, #12254f 0%, #1175B6 40%, #2AB287 85%);
 }
 
-#styy{
-	background: #39B2C4;
-}
-#styy .app-img{
-	width: 60%;
-	margin: 40px auto 0;
-}
 .fs12{
 	font-size: 12px !important;
 }
@@ -293,6 +286,7 @@ section#stzl .item:hover img {
 
 .profile-left img{
 	border-radius: 100%;
+	width: 80px;
 }
 .profile-left{
 	display: inline-block;
@@ -314,85 +308,6 @@ section#stzl .item:hover img {
 	vertical-align: middle;
 }
 
-
-
-#newsbody #desktop-menu>li>a,
-#newsbody #mobile-menu-button{
-	color: black;
-}
-.profile-left img{
-	width: 80px;
-}
-#newsbody .infobox-1 header img{
-	width: 100%;
-}
-#newsdetail .container{
-	padding-top: 40px;
-	text-align: left;
-}
-#newsdetail .news-title,
-#newsdetail .recm-title{
-	font-weight: 600;
-    color: #292929;
-    text-transform: capitalize;
-    font-style: normal;
-    font-size: 25px;
-    line-height: 25px;    
-}
-#newsdetail .recm-title{
-	margin-bottom: 20px;
-	letter-spacing: 1px;
-}
-#newsdetail .news-recommend{
-	padding: 0 0 0 20px;
-	border-left: 2px solid #39B2C4;
-}
-#newsdetail .news-title,
-#newsdetail .news-date{
-	text-align: center;
-}
-#newsdetail .news-date,
-#newsdetail .news-back a{
-	font-style: italic;
-    color: #39B2C4;
-    margin: 5px 0 15px 0 ;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-}
-#newsdetail .news-back a{
-	display: block;
-	font-weight: bold;
-}
-#newsdetail p{
-	margin-bottom: 10px;
-	font-size: 14px;
-	line-height: 20px;
-	letter-spacing: 1.2px;
-}
-#newsdetail .news-recommend ul li{
-	margin-bottom: 15px;
-}
-#newsdetail .news-recommend ul li img{
-	height: 50px;
-	width: 50px;
-	display: inline-block;
-	float: left;
-}
-#newsdetail .news-recommend ul li .p1{
-	display: inline-block;
-	float: left;
-	font-size: 16px;
-	color: #333;
-	margin: 5px 0 5px 10px;
-	letter-spacing: 0;
-}
-#newsdetail .news-recommend ul li .p2{
-	display: inline-block;
-	float: left;
-	margin-left: 10px;	
-	color: #666;
-	font-size: 12px;
-}
 .small-col .profile-left{
 	width: 100px;
 }
@@ -504,11 +419,17 @@ section#stzl .item:hover img {
     .container {
         max-width:100%;
     }
+    .row {
+    	padding: 0;
+    }
 }
 
 @media (min-width: 768px) {
     .container {
         max-width:100%;
+    }
+    .row {
+    	padding: 0;
     }
 }
 
@@ -516,10 +437,18 @@ section#stzl .item:hover img {
     .container {
         max-width:100%;
     }
+    .row {
+    	padding-left: 16%;
+    	padding-right: 16%;
+    }
 }
 
 @media (min-width: 1200px) {
     .container {
         max-width:100%;
+    }
+    .row {
+    	padding-left: 16%;
+    	padding-right: 16%;
     }
 }
