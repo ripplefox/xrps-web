@@ -74,15 +74,20 @@ html,body,div{
 .justify{
 	text-align: justify;
 }
-#video{
-	margin-top: 20px;
-}
+
 .row{
 	margin: 0;
+	padding-left: 16.66666667%;
+	padding-right: 16.66666667%;
 }
 .lightblue{
 	color:#39B2C4;
 }
+.code-bg {
+    background-color: #f0f0f0; /* Grey background color */
+    padding: 10px; /* Add some padding for spacing */
+}
+
 .hide_box{
 	z-index:999;
 	filter:alpha(opacity=50);
@@ -191,24 +196,6 @@ section#stzl .item:hover img {
 	width: 60%;
 	margin: 40px auto 0;
 }
-#ULT .ult-img{
-	background: rgba(0,0,0,0.8);
-    border-radius: 100%;
-    background-size: 90px;
-    width: 90px;
-    margin: auto;
-    height: 90px;
-}
-#ULT .ult-img img{
-	margin: 20px;
-	width: 50px;
-}
-#ULT .ult-label{
-	font-size: 12px;
-	padding-top: 10px;
-	white-space: nowrap;
-}
-
 .fs12{
 	font-size: 12px !important;
 }
@@ -511,4 +498,28 @@ section#stzl .item:hover img {
 }
 .foot-hr{
 	border-top: 1px solid rgba(255,255,255,.5);
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width:100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width:100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width:100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width:100%;
+    }
 }

@@ -7,7 +7,7 @@
 	<meta name="description" content="xrc-20, a novel token protocol">
 	<meta name="keywords" content="xrc-20,xrc20,xrps">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./lib/bootstrap-4.5.2.min.css">
 	<link href="https://cdn.bootcdn.net/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="./css/jquery.bxslider.css">
@@ -16,77 +16,33 @@
 	<link rel="stylesheet" href="./css/owl.carousel.css">
 	<link rel="stylesheet" href="./css/spacing.min.css">
 	<link rel="stylesheet" href="./css/font.css">
-	<link rel="stylesheet" href="./css/xrps.css?v=231227">
+	<link rel="stylesheet" href="./css/xrps.css?v=240105">
 	<link rel="stylesheet" href="./css/style.css?v=231227">
-	<link rel="stylesheet" href="./css/roadmap.css?v=231222">
+	<link rel="stylesheet" href="./css/roadmap.css?v=240105">
 </head>
 
 <body class="onepage" cz-shortcut-listen="true">
-<div id="nav-main-sticky-wrapper" class="sticky-wrapper" style="height: 70px;">
-	<div id="nav-main" class="sticky-menu" style="">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div id="logo-container">
-						<div class="tb">
-							<div class="tb-cell">
-								<a href="" id="logo">
-									<img alt="" title="logo" src="./images/logo-xrps.png" class="img-responsive" style="position: absolute; visibility: hidden;" width="100">
-								</a>
-								<a href="" id="logo-white">
-									<img alt="" title="logo" src="./images/logo-xrps.png" class="img-responsive" style="position: static; visibility: visible;" width="100">
-								</a>
-							</div>
-						</div>
-					</div>
-					<nav class="menu_container">
-						<ul id="desktop-menu" class="visible-md visible-lg">
-							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2130 active">
-								<a href="#about">XRC20</a>
-							</li>
-							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2131">
-								<a href="/trade">Wallet</a>
-							</li>
-<!-- 							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2131">
-								<a href="/#">Market</a>
-							</li> -->
-						</ul>
-					</nav>
-					<div id="mobile-menu-button" class="hidden-md hidden-lg">
-						<i class="fa fa-bars"></i>
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-		</div>
-		<!-- MOBILE MENU -->
-		<nav class="container hidden-lg hidden-md">
-			<div id="mobile-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<ul>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2130 active">
-									<a href="#about">XRC-20</a>
-								</li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2131">
-									<a href="/trade">Wallet</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
-	</div>
-</div>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <a class="navbar-brand" href="#"><img alt="" title="logo" src="./images/logo-xrps.png" class="img-responsive" width="100"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="/#about">XRC-20</a></li>
+            <li class="nav-item"><a class="nav-link" href="/trade">Wallet</a></li>
+            <li class="nav-item"><a class="nav-link" href="/search">Search</a></li>
+        </ul>
+    </div>
+</nav>
 
 <!-- particles.js container -->
 <div id="particles-js">
 	<section id="heroSection">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-offset-2 col-md-8 mtm10">
+				<div class="col-md-12">
 					<div class="logo-wrapper">
 						<img alt="" title="logo" src="./images/logo-xrps.png" class="img-responsive" width="400">
 						<div class="underlines"></div>
@@ -109,7 +65,7 @@
 		<div class="col-md-12 text-center ht10">
 			<div class="master-separator"></div>
 		</div>
-		<div class="col-md-offset-2 col-md-8 fadeInRight my-animation lh2">
+		<div class="col-md-12 fadeInRight my-animation lh2">
 			<span class="lightblue">XRPS,</span>
 			<span>an acronym for XRP + Inscription, is a protocol based on the Ripple network and is part of the Inscription project. The protocol is designated as XRC-20. Its distinctive feature lies in utilizing Ripple as the data storage layer, facilitating the creation of immutable digital artifacts.</span>
 		</div>
@@ -126,7 +82,7 @@
 			<div class="col-md-12 text-center ht10">
 				<div class="master-separator"></div>
 			</div>
-			<div class="col-md-offset-2 col-md-8 fadeInRight my-animation lh2 text-left">
+			<div class="col-md-12 fadeInRight my-animation lh2 text-left">
 				<p>Ripple does not offer smart contract functionality, and it does not support Script and OP. The XRC-20 protocol involves inscribing the metadata and transaction data of Inscription onto the Ripple network. Consistency proof of the ledger is ensured through the use of standard indexers.</p>
 				<p>XRC-20 processes transactions in JSON format and is comprised of 5 fundamental transaction types: <span class="lightblue">mint, transfer, list, delist and buy</span>.</p>
 				<p>A total of 10,000,000,000 XRPS will be minted, corresponding to 10,000,000 immutable inscriptions. Distribution is completely open and fair. The issuance address is <span class="lightblue">rN1bCPAxHDvyJzvkUso1L2wvXufgE4gXPL</span>.</p>
@@ -138,9 +94,10 @@
 			    </div>
 				<h2>Mint</h2>
 				<p>To <span class="lightblue">mint</span> an immutable inscription, you are required to send 0.1 XRP with the corresponding JSON format memo to Ripple. The receiving address must be <span class="lightblue">r4eLeum9n4UQtnANDbgpaGLn9uSgcYXRps</span>. There are only 10 million immutable inscriptions available in total. Each account can mint up to 1,001 immutable inscriptions. <strong>All minting XRP will be put into the initial trading pool.</strong></p>
-				<p><pre>
+				<div class="card"><pre class="code-bg"><code>	// This is a sample use ripple-lib
 	const json = {"tick":"xrps","op":"mint","txt":"I love you."};
-	payment.memos = [{data: JSON.stringify(json), type: 'xrc20', format: 'text'}];</pre></p>
+	payment.memos = [{data: JSON.stringify(json), type: 'xrc20', format: 'text'}];</code></pre>
+				</div>
 				<p>Ensure that type is "xrc20" when you create the memo. The data in memo contains tick, op and txt fields. You can only modify the txt field. Once submitted, the content of the txt cannot be changed. Note that the txt cannot be too long as the memos field is limited to no more than 1 KB in size (when serialized in binary format).</p>
 				<p>When 1 inscription is minted, you will receive an airdrop of 1 XRPS. The remaining 999 XRPS will be distributed after the total minting amount reaches a certain level.</p>
 				<p>You can mint with the <a href="https://xrps.io/trade/">wallet</a> we provide, or use the community wallet <a href="https://snapswap.com" target="_blank">snapswap.com</a>. The wallet implements the federation protocol. Not only can Ripple “send money like sending an email,” it can also “mint XRPS like sending an email.” We are showcasing Ripple as it should be.</p>
@@ -149,29 +106,29 @@
 				<h2>Transfer</h2>
 				<p>Using the <span class="lightblue">transfer</span> operation, you will change the ownership of this inscription. The new owner will have full control of the inscription. If this inscription was originally in the listed state, it will become the delisted state after the transfer.</p>
 				<!-- <p><pre>	{"tick":"xrps","op":"list","id":"1","price":"1000/XRP"}</pre></p> -->
-				<p><pre>	*************************************</pre></p>
+				<div class="card"><pre class="code-bg"><code>	*************************************</code></pre></div>
 				<p>This feature will go live after all XRPS are minted.</p>
 				<hr class="section-heading-spacer">
 
 				<h2>List</h2>
 				<p>Through the <span class="lightblue">list</span> operation, you can put immutable inscriptions on the open market for trading. You need to specify the price when list. Currently only pricing in XRP is supported.</p>
 				<!-- <p><pre>	{"tick":"xrps","op":"list","id":"1","price":"1000/XRP"}</pre></p> -->
-				<p><pre>	*************************************</pre></p>
+				<div class="card"><pre class="code-bg"><code>	*************************************</code></pre></div>
 				<p>This feature will go live after all XRPS are minted.</p>
 				<hr class="section-heading-spacer">
 
 				<h2>Delist</h2>
 				<p>Through the <span class="lightblue">delist</span> operation, you can delist the immutable inscriptions on the open market. You need to specify the id in the json.</p>
-				<p><pre>	*************************************</pre></p>
+				<div class="card"><pre class="code-bg"><code>	*************************************</code></pre></div>
 				<p>This feature will go live after all XRPS are minted.</p>
 				<hr class="section-heading-spacer">
 
 				<h2>Buy</h2>
 				<p>Through the <span class="lightblue">buy</span> operation, you can be the new owner of the immutable inscription. You need to send enough XRP to get it. Note that we will charge a fee of 1% for both the buyer and seller. This fee will be used to purchase XRPS and destroy it.</p>
-				<p><pre>	*************************************</pre></p>
+				<div class="card"><pre class="code-bg"><code>	*************************************</code></pre></div>
 				<p>This feature will go live after all XRPS are minted.</p>
 			</div>
-			<div class="col-md-offset-2 col-md-8 fadeInRight my-animation lh2 text-left">
+			<div class="col-md-12 fadeInRight my-animation lh2 text-left">
 				<span></span>
 			</div>
 		</div>
@@ -188,7 +145,7 @@
 		<div class="col-md-12 text-center ht10">
 			<div class="master-separator"></div>
 		</div>
-		<div class="col-md-offset-2 col-md-8 fadeInRight my-animation lh2">
+		<div class="col-md-12 fadeInRight my-animation lh2">
 			<p>Using the XRC-20 protocol, we have created an inscription market on Ripple. Using XRPS, users are free to define prices and place trades.</p>
 		</div>
 	</div>
@@ -204,7 +161,7 @@
 		<div class="col-md-12 text-center ht10">
 			<div class="master-separator"></div>
 		</div>
-		<div class="col-md-offset-2 col-md-8 fadeInRight my-animation lh2 roadmap">
+		<div class="col-md-12 fadeInRight my-animation lh2 roadmap">
 			<div class="timeline">
 	            <div class="container left">
 	                <i class="icon fa fa-home"></i>
@@ -224,21 +181,21 @@
 	                <i class="icon fa fa-globe"></i>
 	                <div class="date">25 Dec</div>
 	                <div class="content">
-	                    <p><a href="https://xrps.io/trade/">Ripple wallet</a> went online.</p>
+	                    <p><a href="https://xrps.io/trade/">Ripple wallet</a> supporting federation protocol went online.</p>
 	                </div>
 	            </div>
 	            <div class="container right">
-	                <i class="icon fa fa-running"></i>
-	                <div class="date">TBD</div>
+	                <i class="icon fa fa-globe"></i>
+	                <div class="date">5 Jan</div>
 	                <div class="content">
-	                    <p>User can transfer immutable inscriptions to each other.</p>
+	                    <p>Inscription <a href="https://xrps.io/search/">Explorer</a> went online.</p>
 	                </div>
 	            </div>
 	            <div class="container left">
 	                <i class="icon fa fa-store"></i>
 	                <div class="date">TBD</div>
 	                <div class="content">
-	                    <p>DEX ready. User can list and buy inscriptions.</p>
+	                    <p>User can list and buy inscriptions.</p>
 	                </div>
 	            </div>
 	            <div class="container right">
@@ -288,8 +245,10 @@
 	</div>
 </footer>
 
+<script src="./lib/jquery-3.5.1.slim.min.js"></script>
+<script src="./lib/popper-2.5.3.min.js"></script>
+<script src="./lib/bootstrap-4.5.2.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
 <script src="./js/lib/jquery.fitvids.js"></script>
 <script src="./js/lib/jquery.timer.js"></script>
