@@ -77,8 +77,6 @@ html,body,div{
 
 .row{
 	margin: 0;
-	padding-left: 16.66666667%;
-	padding-right: 16.66666667%;
 }
 .lightblue{
 	color:#39B2C4;
@@ -419,17 +417,11 @@ section#stzl .item:hover img {
     .container {
         max-width:100%;
     }
-    .row {
-    	padding: 0;
-    }
 }
 
 @media (min-width: 768px) {
     .container {
         max-width:100%;
-    }
-    .row {
-    	padding: 0;
     }
 }
 
@@ -437,18 +429,10 @@ section#stzl .item:hover img {
     .container {
         max-width:100%;
     }
-    .row {
-    	padding-left: 16%;
-    	padding-right: 16%;
-    }
 }
 
 @media (min-width: 1200px) {
     .container {
         max-width:100%;
-    }
-    .row {
-    	padding-left: 16%;
-    	padding-right: 16%;
     }
 }
